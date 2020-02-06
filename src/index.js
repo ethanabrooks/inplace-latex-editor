@@ -2,12 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import { Helmet } from "react-helmet";
-import { parse, HtmlGenerator } from "latex.js";
+//import { parse, HtmlGenerator } from "latex.js";
 
-const divStyle = {
-  color: "blue",
-  backgroundImage: "url( http://www.hvallison.com/assets/1915-008a.jpg )"
-};
 const dom = (
   <html lang="en">
     <Helmet>
